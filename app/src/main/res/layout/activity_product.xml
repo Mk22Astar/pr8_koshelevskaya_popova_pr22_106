@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кофейня &quot;Бодрость&quot;"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваш завтрак"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кофе с карамелью"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="250 рублей"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Доставка"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Самовывоз"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заполните данные, мы с вами свяжемся"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Нежный бархатистый вкус"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Нужен сахар?"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Корица"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="365dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#6DAAE4"
+        android:text="Отправить"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="365dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#6DAAE4"
+        android:text="Найти кафе"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="669dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="366dp"
+        android:layout_height="63dp"
+        app:srcCompat="@drawable/img_9"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="366dp"
+        android:layout_height="63dp"
+        app:srcCompat="@drawable/img_9"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите свое имя"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите свой номер телефона"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="164dp"
+        android:layout_height="151dp"
+        app:srcCompat="@drawable/img_10"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
